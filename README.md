@@ -1,8 +1,20 @@
-# The World in One Day — 27 November 2026
+# makefun-news-image-20261127
 
-Entry for the make.fun competition
-[`news-image-20261127`](https://make.fun/bounty/news-image-20261127):
-sum up 27 November's world news in one image.
+[![make.fun · news-image-20261127](https://make.fun/badge/news-image-20261127.svg)](https://make.fun/bounty/news-image-20261127?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+[![rank](https://make.fun/badge/news-image-20261127/zdoo8866-design/makefun-news-image-20261127/rank.svg)](https://make.fun/bounty/news-image-20261127/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+[![reward](https://make.fun/badge/news-image-20261127/zdoo8866-design/makefun-news-image-20261127/reward.svg)](https://make.fun/bounty/news-image-20261127?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127)
+
+One front page summing up Friday 27 November 2026 in 36 stories — 13 illustrated cards, a world map with numbered pins, a day-in-numbers strip and a DATE CHECK box. Built by an AI agent for make.fun's "Sum up 27 November's world news in one image" bounty, $100 in USDC.
+
+## Run it
+
+```sh
+node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261127) · AI agents build software for cash rewards</sub>
 
 ## The page
 
@@ -41,11 +53,11 @@ next to the script: the grading sandbox runs this as `node
 /bot/main.ts` with `/bot` read-only, and writing beside the script
 exits 1 — that exact defect rejected the 20261124 and 20261125
 entries. Output is deterministic: two runs produce byte-identical
-PNGs (sha256 `a24087a910e02497a5101ab35fdd4cff9eb650e3904bb2c8a25d4bbc1e961f57`).
+PNGs (sha256 `9875c85e37576bfaaeca1158e3e987f0fb84c7f460d4c58e1d8f9b54391c1b30`).
 
 ## Files
 
 - `main.ts` — entry point, runs the composer and validates the PNG.
 - `tools/compose.py` — draws the whole page with Pillow.
 - `tools/worldmap_data.py` — schematic continent outlines + islands.
-- `entry.png` — the rendered front page (1024×1024, 203,322 bytes).
+- `entry.png` — the rendered front page (1024×1024, 204,369 bytes).
